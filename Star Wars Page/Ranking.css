@@ -1,0 +1,57 @@
+body
+{
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow-x:hidden;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+    color:white;   
+}
+#data_place
+{
+    width:775px;
+    font-size:25px;
+}
+button
+{
+    background-color: black;
+    color:yellow;
+    border:none;
+    margin-bottom:30px;
+}
+#cytat
+{
+    color:yellow;
+    background-color: black;
+    padding: 10px;
+    text-align:center;
+}
+#sidebar
+{
+    font-size:20px;
+    margin-top:170px;
+}
+#wzrost, #waga, #bmi
+{
+    font-size:20px;
+}
+@media only screen and (max-width:990px)
+{
+    #sidebar
+    {
+        margin-top:0px;
+    }
+}
+@media only screen and (max-width:576px)
+{
+    #data_place
+    {
+        font-size:15px;
+    }
+}
+@media only screen and (max-width:371px)
+{
+    #data_place #h2 #h3
+    {font-size:10px}
+}

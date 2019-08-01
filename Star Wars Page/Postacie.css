@@ -1,0 +1,131 @@
+body
+{
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow-x:hidden;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+    color:white;   
+}
+.paging
+{
+    float:left;
+    font-size:30px;
+    cursor:pointer; 
+}
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer; 
+    border: 2px solid #555555;
+    font-size:30px;
+  } 
+.button5:hover 
+  {
+    background-color: #555555;
+    color: white;
+  }
+.nazwisko
+  {
+    font-size:40px;
+  }
+#paginacja
+  {
+    clear:both;
+  }
+#sidebar
+  {
+    background-color: black;
+    font-size:20px;
+    color:yellow;
+    float:left;
+    margin-top:50px;
+    text-decoration:none;
+  }
+#sidebar:hover
+  {
+    text-decoration:none;
+  }
+a
+  {
+    text-decoration: none;
+  }
+#content
+  {
+    float:left;
+    width:775px;
+    padding:50px;
+  }
+#aside
+  {
+    float:right;
+    background-color: none;
+  }
+#cytat
+  {
+    background-color: black;
+    padding:10px;
+    color:yellow;
+    text-align:center;
+  }
+#data_place
+  {
+    height:400px;
+    font-size:22px;
+  }
+li
+  {
+    list-style-image: url()
+  }
+@media only screen and (max-width:1400px)
+    {
+    #content
+        {
+            width:500px;
+        }
+    }
+@media only screen and (max-width:1055px)
+    {
+        .data_place
+        {
+            font-size:15px;
+            margin:0px;
+        }
+        .aside
+        {
+            width:200px;
+        }
+    }
+@media only screen and (max-width:997px)
+    {
+        #data_place
+        {
+            font-size:15px;
+        }
+        #sidebar
+        {
+            font-size:15px;
+        }
+        #content
+        {
+            margin:0px;
+        }
+        .aside
+        {
+            width:100%;
+        }
+        .gold
+        {
+            margin-right:0%;
+        }
+    }

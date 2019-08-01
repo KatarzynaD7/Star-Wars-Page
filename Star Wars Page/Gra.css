@@ -1,0 +1,108 @@
+body
+{
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow-x:hidden;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+    color:white;   
+}
+#data_place
+{
+    width:443px;
+    animation-name:wir;
+    animation-duration:3s;
+    -webkit-animation-name: wir;
+    -webkit-animation-duration:3s;
+    animation-iteration-count: infinite;  
+    position: relative;
+}
+button
+{
+    background-color: black;
+    color:yellow;
+    border:none;
+    margin-bottom:30px;
+}
+#cytat
+{
+    color:yellow;
+    background-color: black;
+    padding:10px;
+    text-align:center;
+}
+.aside
+{
+    float:right;
+}
+#sidebar
+{
+    font-size:20px;
+}
+#navbar
+{
+    margin-bottom: 30px;
+}
+.card
+{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    float:left;
+}
+#content
+{
+    max-width:443px;
+    margin-left:100px;
+    margin-top:50px
+}
+#butony
+{
+    width:443px;
+}
+#data_place
+{
+    margin:auto;
+}
+#pole3
+{
+    margin-right:20px;
+}
+#pole6
+{
+    margin-right:20px;
+}
+#pole9
+{
+    margin-right:20px;
+}
+#sidebar
+{
+    margin-top:80px;
+}
+@media only screen and (max-width:560px)
+{
+    .class
+    {
+        width:50px;
+        height:50px;
+    }
+}
+#tytul
+{
+    text-align:center;
+    margin-bottom:20px;
+}
+@keyframes wir  
+  {
+    0% {left:0px; top:0px;}
+    50% {left:0px; top:5px;}
+    100% {left:0px; top:0px;} 
+   }
+@-webkit-keyframes wir
+  {
+    0% {left:0px; top:0px;}
+    50% {left:0px; top:5px;}
+    100% {left:0px; top:0px;} 
+  }
